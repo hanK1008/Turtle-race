@@ -35,8 +35,8 @@ while game_on:
             else:
                 print(f"You've lose. {turtle.pencolor()} is the winner.")
 
-        random_movemnt = random.randint(0, 10)
-        turtle.forward(random_movemnt)
+        random_movement = random.randint(0, 10)
+        turtle.forward(random_movement)
 
 
 screen.exitonclick()
